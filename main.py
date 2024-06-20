@@ -60,7 +60,7 @@ if __name__ == '__main__':
     db = client['BookFinder']
     collection = db['Books']
 
-    # insert_records(collection)
+    insert_records(collection)
 
 
     # Example operation: Find a document
