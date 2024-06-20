@@ -60,10 +60,19 @@ if __name__ == '__main__':
     db = client['BookFinder']
     collection = db['Books']
 
-    insert_records(collection)
+    # insert_records(collection)
 
+    # Creating an index for Full Text Search
+    collection.create_index([
+        ('title', 'text'),
+        ('authors', 'text'),
+        ('average_rating', 'text'),
+        ('publication_year', 'text')
+    ], name='text_index')
 
-    # Example operation: Find a document
-    # found_document = collection.find({"title": "1984"})
-    # print("Found document:", found_document)
+    search_query = "2005"
+    results = collection.find({"$text": {"$search": search_query}})
+
+    for result in results:
+        print(result)
 
