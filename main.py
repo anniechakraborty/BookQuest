@@ -1,6 +1,48 @@
 import csv
+import json
+import traceback
 from pymongo import MongoClient
+from bson import json_util
+from flask import *
+from flask_cors import CORS
 
+app = Flask(__name__)
+CORS(app)
+
+uri = "mongodb://localhost:27017"
+client = MongoClient(uri)
+db = client['BookFinder']
+collection = db['Books']
+
+search_query = ""
+
+# API Calls and connections
+@app.route('/search', methods=['GET'])
+def get_user_query():
+    try:
+        search_query = request.args.get('query')
+
+        if search_query:
+            results = collection.find({"$text": {"$search": search_query}})
+            response = cursor_to_dict(results)
+
+            return jsonify({
+                "data": response, 
+                "message": "QUERY RESPONSE RECEIVED SUCCESSFULLY!", 
+                "success": True
+            }), 200
+        else:
+            return jsonify(
+                    {
+                        "data": [],
+                        "message": "MISSING SEARCH PARAMS!",
+                        "success": False,
+                    }
+                ), 400
+    except Exception as e:
+        exception_details("get_user_query", e)
+
+# Utility functions
 def read_csv_to_dict(file_path, key_column_index=0):
     """
     Reads a CSV file and stores its contents in a dictionary.
@@ -10,15 +52,17 @@ def read_csv_to_dict(file_path, key_column_index=0):
     :return: Dictionary with each row grouped under a key
     """
     data_dict = {}
-    
-    with open(file_path, mode='r', newline='', encoding='utf-8') as csvfile:
-        reader = csv.reader(csvfile)
-        headers = next(reader)  # Read the header row
-        for row in reader:
-            key = row[key_column_index]
-            data_dict[key] = {headers[i]: row[i] for i in range(len(headers))}
-    
-    return data_dict
+    try:
+        with open(file_path, mode='r', newline='', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            headers = next(reader)  # Read the header row
+            for row in reader:
+                key = row[key_column_index]
+                data_dict[key] = {headers[i]: row[i] for i in range(len(headers))}
+        
+        return data_dict
+    except Exception as e:
+        exception_details("read_csv_to_dict", e)
 
 def create_tmp_csv():
     # Code to create a temp CSV
@@ -46,33 +90,84 @@ def encode_to_xml(json_data):
     #write here
     return ""
 
-def insert_records(collection):
+def cursor_to_dict(cursor):
+        """Converts a cursor to python dictionary
+        Args:
+            cursor (Cursor): Cursor Object
+        Returns:
+            dict: Python dictionary representation of input Cursor
+        """
+
+        try:
+            # iterate over cursor to get a list of dicts
+            cursor_dict = [doc for doc in cursor]
+
+            # serialize to json string
+            cursor_dict_string = json.dumps(cursor_dict, default=json_util.default)
+
+            # json from json string
+            cursor_dict = json.loads(cursor_dict_string)
+
+            return cursor_dict
+
+        except Exception as e:
+            exception_details("cursor_to_dict", e)
+
+def exception_details(function_name, exception):
+        """
+        The function "exception_details" prints the details of an exception, including the function
+        name, exception details, and traceback information.
+        
+        Args:
+          function_name: The name of the function where the exception occurred.
+          exception: The exception parameter is the exception object that was raised during the
+        execution of the function. It contains information about the type of exception and any
+        additional details that may be available.
+        """
+        # code to handle the exception
+        print("=====================================================================================")
+        print("⚠️ Exception in function: ", function_name)
+        print("-------------------------------------------------------------------------------------")
+        print("Exception details:", exception)
+        print("-------------------------------------------------------------------------------------")
+        print("Traceback information:")
+        traceback.print_exc()
+        print("=====================================================================================")
+
+# Database functions
+def insert_records():
+    """
+    Reads data from specified CSV file. 
+    Converts the records into dictionary form and inserts them into the database.
+    """
+
     file_path = 'asset/books.csv'
     # create_tmp_csv()
     data = read_csv_to_dict(file_path)
     data_list = list(data.values())
-    result = collection.insert_many(data_list)
-    print("Records inserted successfully : ", result)
+
+    try:
+        result = collection.insert_many(data_list)
+        print("Records inserted successfully : ", result)
+    
+    except Exception as e:
+        exception_details("insert_records", e)
 
 if __name__ == '__main__':
-    uri = "mongodb://localhost:27017"
-    client = MongoClient(uri)
-    db = client['BookFinder']
-    collection = db['Books']
-
     # insert_records(collection)
 
     # Creating an index for Full Text Search
-    collection.create_index([
-        ('title', 'text'),
-        ('authors', 'text'),
-        ('average_rating', 'text'),
-        ('publication_year', 'text')
-    ], name='text_index')
+    # collection.create_index([
+    #     ('title', 'text'),
+    #     ('authors', 'text'),
+    #     ('average_rating', 'text'),
+    #     ('publication_year', 'text')
+    # ], name='text_index')
+    
+    # print("search_query : ", search_query)
+    # results = collection.find({"$text": {"$search": search_query}})
 
-    search_query = "2005"
-    results = collection.find({"$text": {"$search": search_query}})
+    # print("results execution : ", results.explain())
 
-    for result in results:
-        print(result)
+    app.run(debug=True)
 
