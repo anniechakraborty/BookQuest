@@ -26,6 +26,8 @@ def get_user_query():
             results = collection.find({"$text": {"$search": search_query}})
             response = cursor_to_dict(results)
 
+            #TODO: call encode_to_xml() and pass response here
+
             return jsonify({
                 "data": response, 
                 "message": "QUERY RESPONSE RECEIVED SUCCESSFULLY!", 
