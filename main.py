@@ -169,6 +169,7 @@ if __name__ == '__main__':
     # insert_records()
 
     # Creating an index for Full Text Search
+
     # collection.create_index([
     #     ('title', 'text'),
     #     ('authors', 'text'),
@@ -177,15 +178,17 @@ if __name__ == '__main__':
     # ], name='text_index')
     
     # Take user input for search here 
-    print("Enter your search term")
+    search_query = input("Enter your search term: ")
     
-    # print("search_query : ", search_query)
-    # results = collection.find({"$text": {"$search": search_query}})
+    print("search_query : ", search_query)
+    results = collection.find({"$text": {"$search": search_query}})
     
     # convert data to dict and call encode to xml () here
-    # encode_to_xml()
+    response = cursor_to_dict(results)
+    encode_to_xml(response)
 
-    # validate the generated xml file
+    # Validate the generated XML file using DTD
+    
 
     # Convert the XML to XSLT and display on web page
 
