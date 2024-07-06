@@ -16,7 +16,7 @@ client = MongoClient(uri)
 db = client['BookFinder']
 collection = db['Books']
 
-search_query = ""
+# search_query = ""
 
 # API Calls and connections
 @app.route('/search', methods=['GET'])
@@ -28,7 +28,6 @@ def get_user_query():
             results = collection.find({"$text": {"$search": search_query}})
             response = cursor_to_dict(results)
 
-            #TODO: call encode_to_xml() and pass response here
             encode_to_xml(response)
 
             return jsonify({
@@ -92,7 +91,6 @@ def create_tmp_csv():
     print(f"CSV file '{filename}' created successfully.")
 
 def encode_to_xml(json_data):
-    #write here
     xml_data = dicttoxml.dicttoxml(json_data, custom_root='Books', attr_type=False)
     dom = parseString(xml_data)
     pretty_xml = dom.toprettyxml()
@@ -102,8 +100,7 @@ def encode_to_xml(json_data):
     with open(output_file, "w") as file:
         file.write(pretty_xml)
 
-    print("Data has been converted from JSON to XML and saved to", output_file)
-    return ""
+    print("Data has been converted from JSON to XML and saved to ", output_file)
 
 def cursor_to_dict(cursor):
         """Converts a cursor to python dictionary
@@ -179,8 +176,18 @@ if __name__ == '__main__':
     #     ('publication_year', 'text')
     # ], name='text_index')
     
+    # Take user input for search here 
+    print("Enter your search term")
+    
     # print("search_query : ", search_query)
     # results = collection.find({"$text": {"$search": search_query}})
+    
+    # convert data to dict and call encode to xml () here
+    # encode_to_xml()
+
+    # validate the generated xml file
+
+    # Convert the XML to XSLT and display on web page
 
     # print("results execution : ", results.explain())
 
