@@ -1,0 +1,1334 @@
+<?xml version="1.0" ?>
+<Books>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e38d</key>
+		</_id>
+		<authors>Neil Patrick Harris, David Javerbaum, Antony Hare</authors>
+		<average_rating>3.86</average_rating>
+		<book_id>4451</book_id>
+		<image_url>https://images.gr-assets.com/books/1400599072m/20170296.jpg</image_url>
+		<publication_year>2014</publication_year>
+		<title>Neil Patrick Harris: Choose Your Own Autobiography</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e0d3</key>
+		</_id>
+		<authors>J.K. Rowling</authors>
+		<average_rating>4.73</average_rating>
+		<book_id>3753</book_id>
+		<image_url>https://images.gr-assets.com/books/1328867351m/10.jpg</image_url>
+		<publication_year>2005</publication_year>
+		<title>Harry Potter Collection (Harry Potter, #1-6)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d3d0</key>
+		</_id>
+		<authors>J.K. Rowling</authors>
+		<average_rating>4.74</average_rating>
+		<book_id>422</book_id>
+		<image_url>https://images.gr-assets.com/books/1392579059m/862041.jpg</image_url>
+		<publication_year>1998</publication_year>
+		<title>Harry Potter Boxset (Harry Potter, #1-7)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d243</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.61</average_rating>
+		<book_id>25</book_id>
+		<image_url>https://images.gr-assets.com/books/1474171184m/136251.jpg</image_url>
+		<publication_year>2007</publication_year>
+		<title>Harry Potter and the Deathly Hallows (Harry Potter, #7)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d242</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.53</average_rating>
+		<book_id>24</book_id>
+		<image_url>https://images.gr-assets.com/books/1361482611m/6.jpg</image_url>
+		<publication_year>2000</publication_year>
+		<title>Harry Potter and the Goblet of Fire (Harry Potter, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d241</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.37</average_rating>
+		<book_id>23</book_id>
+		<image_url>https://images.gr-assets.com/books/1474169725m/15881.jpg</image_url>
+		<publication_year>1998</publication_year>
+		<title>Harry Potter and the Chamber of Secrets (Harry Potter, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d23f</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.46</average_rating>
+		<book_id>21</book_id>
+		<image_url>https://images.gr-assets.com/books/1387141547m/2.jpg</image_url>
+		<publication_year>2003</publication_year>
+		<title>Harry Potter and the Order of the Phoenix (Harry Potter, #5)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d23c</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré, Rufus Beck</authors>
+		<average_rating>4.53</average_rating>
+		<book_id>18</book_id>
+		<image_url>https://images.gr-assets.com/books/1499277281m/5.jpg</image_url>
+		<publication_year>1999</publication_year>
+		<title>Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d22c</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.44</average_rating>
+		<book_id>2</book_id>
+		<image_url>https://images.gr-assets.com/books/1474154022m/3.jpg</image_url>
+		<publication_year>1997</publication_year>
+		<title>Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e418</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>3.91</average_rating>
+		<book_id>4590</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2007</publication_year>
+		<title>The Overlook (Harry Bosch, #13; Harry Bosch Universe, #15)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e1b8</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.08</average_rating>
+		<book_id>3982</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2005</publication_year>
+		<title>The Closers (Harry Bosch, #11; Harry Bosch Universe, #13)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e0a3</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.09</average_rating>
+		<book_id>3705</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2004</publication_year>
+		<title>The Narrows (Harry Bosch, #10; Harry Bosch Universe, #12)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dd77</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.14</average_rating>
+		<book_id>2893</book_id>
+		<image_url>https://images.gr-assets.com/books/1327935031m/11082037.jpg</image_url>
+		<publication_year>2011</publication_year>
+		<title>The Drop (Harry Bosch, #17; Harry Bosch Universe, #21)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d245</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.54</average_rating>
+		<book_id>27</book_id>
+		<image_url>https://images.gr-assets.com/books/1361039191m/1.jpg</image_url>
+		<publication_year>2005</publication_year>
+		<title>Harry Potter and the Half-Blood Prince (Harry Potter, #6)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ea27</key>
+		</_id>
+		<authors>J.K. Rowling</authors>
+		<average_rating>4.56</average_rating>
+		<book_id>6141</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2003</publication_year>
+		<title>Harry Potter and the Order of the Phoenix (Harry Potter, #5, Part 1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e1e3</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.04</average_rating>
+		<book_id>4025</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2002</publication_year>
+		<title>City of Bones (Harry Bosch, #8; Harry Bosch Universe, #10)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e1a7</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.13</average_rating>
+		<book_id>3965</book_id>
+		<image_url>https://images.gr-assets.com/books/1440615586m/32502.jpg</image_url>
+		<publication_year>1999</publication_year>
+		<title>Angels Flight (Harry Bosch, #6; Harry Bosch Universe, #7)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dfd0</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.05</average_rating>
+		<book_id>3494</book_id>
+		<image_url>https://images.gr-assets.com/books/1392997140m/20881071.jpg</image_url>
+		<publication_year>2014</publication_year>
+		<title>The Burning Room (Harry Bosch, #19; Harry Bosch Universe, #24)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dfb5</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.09</average_rating>
+		<book_id>3467</book_id>
+		<image_url>https://images.gr-assets.com/books/1344765247m/13495034.jpg</image_url>
+		<publication_year>2012</publication_year>
+		<title>The Black Box (Harry Bosch, #18; Harry Bosch Universe, #22)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267df50</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.07</average_rating>
+		<book_id>3366</book_id>
+		<image_url>https://images.gr-assets.com/books/1168391416m/32501.jpg</image_url>
+		<publication_year>2006</publication_year>
+		<title>Echo Park (Harry Bosch, #12; Harry Bosch Universe, #14)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267defa</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.15</average_rating>
+		<book_id>3280</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2003</publication_year>
+		<title>Lost Light (Harry Bosch, #9; Harry Bosch Universe, #11)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dea8</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.12</average_rating>
+		<book_id>3198</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1994</publication_year>
+		<title>The Concrete Blonde (Harry Bosch, #3; Harry Bosch Universe, #3)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dce9</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.15</average_rating>
+		<book_id>2751</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1997</publication_year>
+		<title>Trunk Music (Harry Bosch, #5; Harry Bosch Universe, #6)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dc38</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.05</average_rating>
+		<book_id>2574</book_id>
+		<image_url>https://images.gr-assets.com/books/1372241876m/24244.jpg</image_url>
+		<publication_year>1993</publication_year>
+		<title>The Black Ice (Harry Bosch, #2; Harry Bosch Universe, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dbeb</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.21</average_rating>
+		<book_id>2497</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1995</publication_year>
+		<title>The Last Coyote (Harry Bosch, #4; Harry Bosch Universe, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267da5f</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.66</average_rating>
+		<book_id>2101</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1999</publication_year>
+		<title>The Harry Potter Collection 1-4 (Harry Potter, #1-4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d5b0</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.08</average_rating>
+		<book_id>902</book_id>
+		<image_url>https://images.gr-assets.com/books/1344265342m/32508.jpg</image_url>
+		<publication_year>1992</publication_year>
+		<title>The Black Echo (Harry Bosch, #1; Harry Bosch Universe, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e433</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.36</average_rating>
+		<book_id>4617</book_id>
+		<image_url>https://images.gr-assets.com/books/1457022523m/29154543.jpg</image_url>
+		<publication_year>2016</publication_year>
+		<title>The Wrong Side of Goodbye (Harry Bosch, #21; Harry Bosch Universe, #26)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d341</key>
+		</_id>
+		<authors>John Tiffany, Jack Thorne, J.K. Rowling</authors>
+		<average_rating>3.75</average_rating>
+		<book_id>279</book_id>
+		<image_url>https://images.gr-assets.com/books/1470082995m/29056083.jpg</image_url>
+		<publication_year>2016</publication_year>
+		<title>Harry Potter and the Cursed Child - Parts One and Two (Harry Potter, #8)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e37f</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.21</average_rating>
+		<book_id>4437</book_id>
+		<image_url>https://images.gr-assets.com/books/1428347007m/25010281.jpg</image_url>
+		<publication_year>2015</publication_year>
+		<title>The Crossing (Harry Bosch, #20; Mickey Haller, #7; Harry Bosch Universe, #25)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267def5</key>
+		</_id>
+		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<average_rating>4.77</average_rating>
+		<book_id>3275</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2003</publication_year>
+		<title>Harry Potter Boxed Set, Books 1-5 (Harry Potter, #1-5)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dc4e</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.13</average_rating>
+		<book_id>2596</book_id>
+		<image_url>https://images.gr-assets.com/books/1421934033m/7936809.jpg</image_url>
+		<publication_year>2010</publication_year>
+		<title>The Reversal (Harry Bosch, #16; Mickey Haller, #4; Harry Bosch Universe, #19)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f2db</key>
+		</_id>
+		<authors>Melissa Anelli, J.K. Rowling</authors>
+		<average_rating>4.09</average_rating>
+		<book_id>8369</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2008</publication_year>
+		<title>Harry, a History: The True Story of a Boy Wizard, His Fans, and Life Inside the Harry Potter Phenomenon</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e330</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>3.97</average_rating>
+		<book_id>4358</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2009</publication_year>
+		<title>Nine Dragons (Harry Bosch, #15; Mickey Haller, #3; Harry Bosch Universe, #18)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e148</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.12</average_rating>
+		<book_id>3870</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2000</publication_year>
+		<title>A Darkness More Than Night (Harry Bosch, #7; Terry McCaleb, #2; Harry Bosch Universe, #9)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dc79</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.08</average_rating>
+		<book_id>2639</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2008</publication_year>
+		<title>The Brass Verdict (Harry Bosch, #14; Mickey Haller, #2; Harry Bosch Universe, #17)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f909</key>
+		</_id>
+		<authors>Joanne Harris</authors>
+		<average_rating>3.8</average_rating>
+		<book_id>9951</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2007</publication_year>
+		<title>The Girl with No Shadow (Chocolat, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f8b1</key>
+		</_id>
+		<authors>Harry Harrison</authors>
+		<average_rating>3.93</average_rating>
+		<book_id>9863</book_id>
+		<image_url>https://images.gr-assets.com/books/1328073906m/64394.jpg</image_url>
+		<publication_year>1961</publication_year>
+		<title>The Stainless Steel Rat (Stainless Steel Rat, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f89b</key>
+		</_id>
+		<authors>Joanne Harris</authors>
+		<average_rating>3.78</average_rating>
+		<book_id>9841</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1999</publication_year>
+		<title>Blackberry Wine</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f4b5</key>
+		</_id>
+		<authors>Harry Bernstein</authors>
+		<average_rating>4.07</average_rating>
+		<book_id>8843</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2006</publication_year>
+		<title>The Invisible Wall: A Love Story That Broke Barriers</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267eea0</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.63</average_rating>
+		<book_id>7286</book_id>
+		<image_url>https://images.gr-assets.com/books/1384456102m/18107951.jpg</image_url>
+		<publication_year>2014</publication_year>
+		<title>Midnight Crossroad (Midnight, Texas, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ee8d</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.66</average_rating>
+		<book_id>7267</book_id>
+		<image_url>https://images.gr-assets.com/books/1307067671m/140091.jpg</image_url>
+		<publication_year>1990</publication_year>
+		<title>Real Murders (Aurora Teagarden, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ec63</key>
+		</_id>
+		<authors>Robert   Harris</authors>
+		<average_rating>4.14</average_rating>
+		<book_id>6713</book_id>
+		<image_url>https://images.gr-assets.com/books/1378711003m/18007532.jpg</image_url>
+		<publication_year>2013</publication_year>
+		<title>An Officer and a Spy</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ebb0</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.94</average_rating>
+		<book_id>6534</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2009</publication_year>
+		<title>Grave Secret (Harper Connelly, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267eb82</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.76</average_rating>
+		<book_id>6488</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1996</publication_year>
+		<title>Shakespeare's Landlord (Lily Bard, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267eb58</key>
+		</_id>
+		<authors>Robert   Harris</authors>
+		<average_rating>4.05</average_rating>
+		<book_id>6446</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2006</publication_year>
+		<title>Imperium: A Novel of Ancient Rome (Cicero, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267eb34</key>
+		</_id>
+		<authors>Joshua Harris</authors>
+		<average_rating>3.78</average_rating>
+		<book_id>6410</book_id>
+		<image_url>https://images.gr-assets.com/books/1170356477m/48758.jpg</image_url>
+		<publication_year>2000</publication_year>
+		<title>Boy Meets Girl: Say Hello to Courtship</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ea9c</key>
+		</_id>
+		<authors>Thomas A. Harris</authors>
+		<average_rating>3.7</average_rating>
+		<book_id>6258</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1967</publication_year>
+		<title>I'm OK - You're OK</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e9d8</key>
+		</_id>
+		<authors>Sam Harris</authors>
+		<average_rating>3.87</average_rating>
+		<book_id>6062</book_id>
+		<image_url>https://images.gr-assets.com/books/1415677308m/18774981.jpg</image_url>
+		<publication_year>2014</publication_year>
+		<title>Waking Up: A Guide to Spirituality Without Religion</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e8d8</key>
+		</_id>
+		<authors>Sam Harris</authors>
+		<average_rating>3.9</average_rating>
+		<book_id>5806</book_id>
+		<image_url>https://images.gr-assets.com/books/1331317058m/7785194.jpg</image_url>
+		<publication_year>2010</publication_year>
+		<title>The Moral Landscape: How Science Can Determine Human Values</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e7c5</key>
+		</_id>
+		<authors>Sam Harris</authors>
+		<average_rating>3.83</average_rating>
+		<book_id>5531</book_id>
+		<image_url>https://images.gr-assets.com/books/1332196118m/13259270.jpg</image_url>
+		<publication_year>2012</publication_year>
+		<title>Free Will</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e7a5</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.95</average_rating>
+		<book_id>5499</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2007</publication_year>
+		<title>An Ice Cold Grave (Harper Connelly, #3)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e5de</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.88</average_rating>
+		<book_id>5044</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2006</publication_year>
+		<title>Grave Surprise (Harper Connelly, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e572</key>
+		</_id>
+		<authors>Joshua Harris</authors>
+		<average_rating>3.61</average_rating>
+		<book_id>4936</book_id>
+		<image_url>https://images.gr-assets.com/books/1320506446m/107195.jpg</image_url>
+		<publication_year>1996</publication_year>
+		<title>I Kissed Dating Goodbye</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e529</key>
+		</_id>
+		<authors>Robert   Harris</authors>
+		<average_rating>3.96</average_rating>
+		<book_id>4863</book_id>
+		<image_url>https://images.gr-assets.com/books/1261912137m/56842.jpg</image_url>
+		<publication_year>1992</publication_year>
+		<title>Fatherland</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e3c6</key>
+		</_id>
+		<authors>Joanne Harris</authors>
+		<average_rating>3.83</average_rating>
+		<book_id>4508</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2001</publication_year>
+		<title>Five Quarters of the Orange</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e370</key>
+		</_id>
+		<authors>Thomas Harris</authors>
+		<average_rating>3.44</average_rating>
+		<book_id>4422</book_id>
+		<image_url>https://images.gr-assets.com/books/1394208690m/32416.jpg</image_url>
+		<publication_year>2006</publication_year>
+		<title>Hannibal Rising (Hannibal Lecter, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e2d6</key>
+		</_id>
+		<authors>Robert   Harris</authors>
+		<average_rating>3.79</average_rating>
+		<book_id>4268</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2003</publication_year>
+		<title>Pompeii</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e0d9</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.43</average_rating>
+		<book_id>3759</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2008</publication_year>
+		<title>Sookie Stackhouse 7-copy Boxed Set (Sookie Stackhouse, #1-7)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e053</key>
+		</_id>
+		<authors>Sam Harris</authors>
+		<average_rating>3.93</average_rating>
+		<book_id>3625</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2004</publication_year>
+		<title>The End of Faith: Religion, Terror, and the Future of Reason</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e045</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.82</average_rating>
+		<book_id>3611</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2009</publication_year>
+		<title>A Touch of Dead (Sookie Stackhouse, #4.1, #4.3, #5.1, #7.1, #8.1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dfc7</key>
+		</_id>
+		<authors>Sam Harris</authors>
+		<average_rating>4.04</average_rating>
+		<book_id>3485</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2006</publication_year>
+		<title>Letter to a Christian Nation</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dcea</key>
+		</_id>
+		<authors>Dan   Harris</authors>
+		<average_rating>3.93</average_rating>
+		<book_id>2752</book_id>
+		<image_url>https://images.gr-assets.com/books/1451446393m/18505796.jpg</image_url>
+		<publication_year>2014</publication_year>
+		<title>10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dba8</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.85</average_rating>
+		<book_id>2430</book_id>
+		<image_url>https://images.gr-assets.com/books/1328694483m/58077.jpg</image_url>
+		<publication_year>2005</publication_year>
+		<title>Grave Sight (Harper Connelly, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d9e5</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.39</average_rating>
+		<book_id>1979</book_id>
+		<image_url>https://images.gr-assets.com/books/1352158186m/15985348.jpg</image_url>
+		<publication_year>2013</publication_year>
+		<title>Dead Ever After (Sookie Stackhouse, #13)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d934</key>
+		</_id>
+		<authors>Thomas Harris</authors>
+		<average_rating>3.72</average_rating>
+		<book_id>1802</book_id>
+		<image_url>https://images.gr-assets.com/books/1327356556m/32418.jpg</image_url>
+		<publication_year>1999</publication_year>
+		<title>Hannibal (Hannibal Lecter, #3)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d85e</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.65</average_rating>
+		<book_id>1588</book_id>
+		<image_url>https://images.gr-assets.com/books/1357995380m/10407279.jpg</image_url>
+		<publication_year>2012</publication_year>
+		<title>Deadlocked (Sookie Stackhouse, #12)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d6db</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.77</average_rating>
+		<book_id>1201</book_id>
+		<image_url>https://images.gr-assets.com/books/1357679465m/7981206.jpg</image_url>
+		<publication_year>2011</publication_year>
+		<title>Dead Reckoning (Sookie Stackhouse, #11)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d695</key>
+		</_id>
+		<authors>Joanne Harris</authors>
+		<average_rating>3.95</average_rating>
+		<book_id>1131</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1998</publication_year>
+		<title>Chocolat (Chocolat, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d591</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.88</average_rating>
+		<book_id>871</book_id>
+		<image_url>https://images.gr-assets.com/books/1290479828m/7091488.jpg</image_url>
+		<publication_year>2010</publication_year>
+		<title>Dead in the Family (Sookie Stackhouse, #10)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d516</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.01</average_rating>
+		<book_id>748</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2009</publication_year>
+		<title>Dead and Gone (Sookie Stackhouse, #9)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d4fe</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.01</average_rating>
+		<book_id>724</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2008</publication_year>
+		<title>From Dead to Worse (Sookie Stackhouse, #8)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d4b6</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.02</average_rating>
+		<book_id>652</book_id>
+		<image_url>https://images.gr-assets.com/books/1468562748m/140079.jpg</image_url>
+		<publication_year>2006</publication_year>
+		<title>Definitely Dead (Sookie Stackhouse, #6)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d4a1</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.01</average_rating>
+		<book_id>631</book_id>
+		<image_url>https://images.gr-assets.com/books/1468562419m/170210.jpg</image_url>
+		<publication_year>2005</publication_year>
+		<title>Dead as a Doornail (Sookie Stackhouse, #5)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d49a</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.05</average_rating>
+		<book_id>624</book_id>
+		<image_url>https://images.gr-assets.com/books/1417964062m/140075.jpg</image_url>
+		<publication_year>2007</publication_year>
+		<title>All Together Dead (Sookie Stackhouse, #7)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d45d</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.03</average_rating>
+		<book_id>563</book_id>
+		<image_url>https://images.gr-assets.com/books/1329501590m/140082.jpg</image_url>
+		<publication_year>2003</publication_year>
+		<title>Club Dead (Sookie Stackhouse, #3)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d458</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>4.13</average_rating>
+		<book_id>558</book_id>
+		<image_url>https://images.gr-assets.com/books/1468561630m/140077.jpg</image_url>
+		<publication_year>2004</publication_year>
+		<title>Dead to the World (Sookie Stackhouse, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d439</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.97</average_rating>
+		<book_id>527</book_id>
+		<image_url>https://images.gr-assets.com/books/1329501808m/110494.jpg</image_url>
+		<publication_year>2002</publication_year>
+		<title>Living Dead in Dallas (Sookie Stackhouse, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d3d9</key>
+		</_id>
+		<authors>Thomas Harris</authors>
+		<average_rating>4.01</average_rating>
+		<book_id>431</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1981</publication_year>
+		<title>Red Dragon (Hannibal Lecter, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d2fb</key>
+		</_id>
+		<authors>Thomas Harris</authors>
+		<average_rating>4.14</average_rating>
+		<book_id>209</book_id>
+		<image_url>https://images.gr-assets.com/books/1390426249m/23807.jpg</image_url>
+		<publication_year>1988</publication_year>
+		<title>The Silence of the Lambs  (Hannibal Lecter, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d2ef</key>
+		</_id>
+		<authors>Charlaine Harris</authors>
+		<average_rating>3.96</average_rating>
+		<book_id>197</book_id>
+		<image_url>https://images.gr-assets.com/books/1468560853m/301082.jpg</image_url>
+		<publication_year>2001</publication_year>
+		<title>Dead Until Dark (Sookie Stackhouse, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e2f3</key>
+		</_id>
+		<authors>Harry Gregson-Williams</authors>
+		<average_rating>4.32</average_rating>
+		<book_id>4297</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2006</publication_year>
+		<title>Piano/Vocal/Guitar Sheet Music: The Chronicles of Narnia: The Lion, the Witch and The Wardrobe</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dc40</key>
+		</_id>
+		<authors>Gene Zion, Margaret Bloy Graham</authors>
+		<average_rating>4.17</average_rating>
+		<book_id>2582</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1956</publication_year>
+		<title>Harry the Dirty Dog</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d7b3</key>
+		</_id>
+		<authors>Lauren Weisberger</authors>
+		<average_rating>3.32</average_rating>
+		<book_id>1417</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2008</publication_year>
+		<title>Chasing Harry Winston</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267eec9</key>
+		</_id>
+		<authors>Amin Maalouf, Russell Harris</authors>
+		<average_rating>4.2</average_rating>
+		<book_id>7327</book_id>
+		<image_url>https://images.gr-assets.com/books/1327995121m/142395.jpg</image_url>
+		<publication_year>1988</publication_year>
+		<title>Samarkand</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e6d3</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>4.22</average_rating>
+		<book_id>5289</book_id>
+		<image_url>https://images.gr-assets.com/books/1373049226m/18142329.jpg</image_url>
+		<publication_year>2013</publication_year>
+		<title>Police (Harry Hole, #10)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e6a2</key>
+		</_id>
+		<authors>Jo Nesbø</authors>
+		<average_rating>4.07</average_rating>
+		<book_id>5240</book_id>
+		<image_url>https://images.gr-assets.com/books/1418343566m/2033352.jpg</image_url>
+		<publication_year>2005</publication_year>
+		<title>The Redeemer (Harry Hole, #6)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e5dd</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>3.71</average_rating>
+		<book_id>5043</book_id>
+		<image_url>https://images.gr-assets.com/books/1418343189m/18373214.jpg</image_url>
+		<publication_year>1998</publication_year>
+		<title>Cockroaches (Harry Hole, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e453</key>
+		</_id>
+		<authors>Doreen Cronin, Harry Bliss</authors>
+		<average_rating>4.19</average_rating>
+		<book_id>4649</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1996</publication_year>
+		<title>Diary of a Worm</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e2c1</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>4.11</average_rating>
+		<book_id>4247</book_id>
+		<image_url>https://images.gr-assets.com/books/1333577303m/13256064.jpg</image_url>
+		<publication_year>2011</publication_year>
+		<title>Phantom (Harry Hole, #9)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e27e</key>
+		</_id>
+		<authors>Harry Allard, James  Marshall</authors>
+		<average_rating>4.33</average_rating>
+		<book_id>4180</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1982</publication_year>
+		<title>Miss Nelson Is Back (Miss Nelson, #2)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e17d</key>
+		</_id>
+		<authors>Miyamoto Musashi, Victor Harris</authors>
+		<average_rating>4.09</average_rating>
+		<book_id>3923</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1645</publication_year>
+		<title>A Book of Five Rings: The Classic Guide to Strategy</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e069</key>
+		</_id>
+		<authors>Jo Nesbø</authors>
+		<average_rating>4.08</average_rating>
+		<book_id>3647</book_id>
+		<image_url>https://images.gr-assets.com/books/1408635770m/6891433.jpg</image_url>
+		<publication_year>2009</publication_year>
+		<title>Panserhjerte (Harry Hole, #8)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267df5e</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>3.98</average_rating>
+		<book_id>3380</book_id>
+		<image_url>https://images.gr-assets.com/books/1327312660m/3522419.jpg</image_url>
+		<publication_year>2002</publication_year>
+		<title>Nemesis (Harry Hole, #4)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dba9</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>3.56</average_rating>
+		<book_id>2431</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1997</publication_year>
+		<title>Flaggermusmannen (Harry Hole, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d9fb</key>
+		</_id>
+		<authors>Brian Sibley</authors>
+		<average_rating>4.48</average_rating>
+		<book_id>2001</book_id>
+		<image_url>https://images.gr-assets.com/books/1464452934m/7952502.jpg</image_url>
+		<publication_year>2010</publication_year>
+		<title>Harry Potter: Film Wizardry</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d984</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>4.04</average_rating>
+		<book_id>1882</book_id>
+		<image_url>https://images.gr-assets.com/books/1355881478m/9572203.jpg</image_url>
+		<publication_year>2007</publication_year>
+		<title>The Snowman (Harry Hole, #7)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d8fa</key>
+		</_id>
+		<authors>Jo Nesbø, Don Bartlett</authors>
+		<average_rating>3.94</average_rating>
+		<book_id>1744</book_id>
+		<image_url>https://images.gr-assets.com/books/1320540474m/465226.jpg</image_url>
+		<publication_year>2000</publication_year>
+		<title>The Redbreast (Harry Hole, #3)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d731</key>
+		</_id>
+		<authors>Harry Allard, James  Marshall</authors>
+		<average_rating>4.26</average_rating>
+		<book_id>1287</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1977</publication_year>
+		<title>Miss Nelson Is Missing! (Miss Nelson, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ee0b</key>
+		</_id>
+		<authors>Tony Parsons</authors>
+		<average_rating>3.55</average_rating>
+		<book_id>7137</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1999</publication_year>
+		<title>Man and Boy (Harry Silver, #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dd3a</key>
+		</_id>
+		<authors>Claire North</authors>
+		<average_rating>4.04</average_rating>
+		<book_id>2832</book_id>
+		<image_url>https://images.gr-assets.com/books/1407712314m/20706317.jpg</image_url>
+		<publication_year>2014</publication_year>
+		<title>The First Fifteen Lives of Harry August</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dc54</key>
+		</_id>
+		<authors>Jo Nesbø</authors>
+		<average_rating>4.03</average_rating>
+		<book_id>2602</book_id>
+		<image_url>https://images.gr-assets.com/books/1328611163m/498389.jpg</image_url>
+		<publication_year>2003</publication_year>
+		<title>The Devil's Star (Harry Hole, #5)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d68a</key>
+		</_id>
+		<authors>Aesop, Laura Harris, Laura Gibbs</authors>
+		<average_rating>4.05</average_rating>
+		<book_id>1120</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>-560</publication_year>
+		<title>Aesop's Fables</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f66d</key>
+		</_id>
+		<authors>David Baggett, Shawn E. Klein</authors>
+		<average_rating>4.45</average_rating>
+		<book_id>9283</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2004</publication_year>
+		<title>Harry Potter and Philosophy: If Aristotle Ran Hogwarts</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dd49</key>
+		</_id>
+		<authors>Joël Dicker</authors>
+		<average_rating>3.94</average_rating>
+		<book_id>2847</book_id>
+		<image_url>https://images.gr-assets.com/books/1347987605m/16033842.jpg</image_url>
+		<publication_year>2011</publication_year>
+		<title>La Vérité sur l'affaire Harry Quebert</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e235</key>
+		</_id>
+		<authors>Andrew Williamson, Andrew Williamson</authors>
+		<average_rating>4.55</average_rating>
+		<book_id>4107</book_id>
+		<image_url>https://images.gr-assets.com/books/1328739344m/8346300.jpg</image_url>
+		<publication_year>2010</publication_year>
+		<title>Harry Potter: A Pop-Up Book: Based on the Film Phenomenon</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e0c2</key>
+		</_id>
+		<authors>Bob McCabe</authors>
+		<average_rating>4.56</average_rating>
+		<book_id>3736</book_id>
+		<image_url>https://images.gr-assets.com/books/1317345385m/10785687.jpg</image_url>
+		<publication_year>2011</publication_year>
+		<title>Harry Potter Page to Screen: The Complete Filmmaking Journey</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267db42</key>
+		</_id>
+		<authors>William S. Burroughs, Oliver  Harris, Allen Ginsberg</authors>
+		<average_rating>3.85</average_rating>
+		<book_id>2328</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1953</publication_year>
+		<title>Junky</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f509</key>
+		</_id>
+		<authors>Chris Van Allsburg, Lois Lowry, Kate DiCamillo, M.T. Anderson, Louis Sachar, Stephen King, Tabitha King, Jon Scieszka, Sherman Alexie, Gregory Maguire, Cory Doctorow, Jules Feiffer, Linda Sue Park, Walter Dean Myers, Lemony Snicket</authors>
+		<average_rating>3.91</average_rating>
+		<book_id>8927</book_id>
+		<image_url>https://images.gr-assets.com/books/1327949098m/10508526.jpg</image_url>
+		<publication_year>2011</publication_year>
+		<title>The Chronicles of Harris Burdick: 14 Amazing Authors Tell the Tales</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d871</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.19</average_rating>
+		<book_id>1607</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1996</publication_year>
+		<title>The Poet (Jack McEvoy, #1; Harry Bosch Universe, #5)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ed94</key>
+		</_id>
+		<authors>David Colbert</authors>
+		<average_rating>3.96</average_rating>
+		<book_id>7018</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2001</publication_year>
+		<title>The Magical Worlds of Harry Potter: A Treasury of Myths, Legends, and Fascinating Facts</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dfdd</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.09</average_rating>
+		<book_id>3507</book_id>
+		<image_url>https://images.gr-assets.com/books/1362529630m/17333227.jpg</image_url>
+		<publication_year>2013</publication_year>
+		<title>The Gods of Guilt (Mickey Haller, #6; Harry Bosch Universe, #23)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267de18</key>
+		</_id>
+		<authors>John   Williams</authors>
+		<average_rating>4.61</average_rating>
+		<book_id>3054</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2003</publication_year>
+		<title>Harry Potter and the Chamber of Secrets: Sheet Music for Flute with C.D</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267dcec</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.11</average_rating>
+		<book_id>2754</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>1998</publication_year>
+		<title>Blood Work (Harry Bosch Universe, #8; Terry McCaleb #1)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267db7a</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.17</average_rating>
+		<book_id>2384</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2011</publication_year>
+		<title>The Fifth Witness (Mickey Haller, #5; Harry Bosch Universe, #20)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267d433</key>
+		</_id>
+		<authors>Michael Connelly</authors>
+		<average_rating>4.14</average_rating>
+		<book_id>521</book_id>
+		<image_url>https://images.gr-assets.com/books/1370140049m/79885.jpg</image_url>
+		<publication_year>2005</publication_year>
+		<title>The Lincoln Lawyer (Mickey Haller, #1; Harry Bosch Universe, #16)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267e4b6</key>
+		</_id>
+		<authors>Stephen C. Lundin, Harry Paul, John Christensen, Kenneth H. Blanchard</authors>
+		<average_rating>3.92</average_rating>
+		<book_id>4748</book_id>
+		<image_url>https://images.gr-assets.com/books/1393219562m/206309.jpg</image_url>
+		<publication_year>1996</publication_year>
+		<title>Fish: A Proven Way to Boost Morale and Improve Results</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f582</key>
+		</_id>
+		<authors>J.K. Rowling</authors>
+		<average_rating>4.4</average_rating>
+		<book_id>9048</book_id>
+		<image_url>https://images.gr-assets.com/books/1479775271m/2002.jpg</image_url>
+		<publication_year>2001</publication_year>
+		<title>Harry Potter Schoolbooks Box Set: Two Classic Books from the Library of Hogwarts School of Witchcraft and Wizardry</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267f50e</key>
+		</_id>
+		<authors>Dinah Bucholz</authors>
+		<average_rating>4.1</average_rating>
+		<book_id>8932</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2010</publication_year>
+		<title>The Unofficial Harry Potter Cookbook: From Cauldron Cakes to Knickerbocker Glory--More Than 150 Magical Recipes for Wizards and Non-Wizards Alike (Unofficial Cookbook)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267df6e</key>
+		</_id>
+		<authors>Neil Gaiman, Mike Allred, Gary Amaro, Mark Buckingham, David Giordano, Tony Harris, Steve Leialoha, Vince Locke, Shea Anton Pensa, Alec Stevens, Bryan Talbot, John Watkiss, Todd Klein, Michael Zulli, Stephen King</authors>
+		<average_rating>4.48</average_rating>
+		<book_id>3396</book_id>
+		<image_url>https://images.gr-assets.com/books/1339922260m/25103.jpg</image_url>
+		<publication_year>1995</publication_year>
+		<title>Worlds' End (The Sandman #8)</title>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">66894b18b9511a1cf267ea64</key>
+		</_id>
+		<authors>Christopher Hitchens, Titus Lucretius Carus, Omar Khayyám, Thomas Hobbes, Baruch Spinoza, David Hume, James Boswell, Percy Bysshe Shelley, George Eliot, Charles Darwin, Leslie Stephen, Anatole France, Mark Twain, Joseph Conrad, Thomas Hardy, Emma Goldman, H.P. Lovecraft, Carl Van Doren, H.L. Mencken, Sigmund Freud, Albert Einstein, George Orwell, John Betjeman, Chapman Cohen, Bertrand Russell, Philip Larkin, Martin Gardner, Carl Sagan, John Updike, John Leslie Mackie, Michael Shermer, A.J. Ayer, Daniel C. Dennett, Charles Templeton, Richard Dawkins, Victor J. Stenger, Elizabeth S.  Anderson, Penn Jillette, Ian McEwan, Steven Weinberg, Salman Rushdie, Ibn Warraq, Sam Harris, A.C. Grayling, Ayaan Hirsi Ali, John Stuart Mill, Karl Marx</authors>
+		<average_rating>4.02</average_rating>
+		<book_id>6202</book_id>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<publication_year>2007</publication_year>
+		<title>The Portable Atheist: Essential Readings for the Nonbeliever</title>
+	</item>
+</Books>

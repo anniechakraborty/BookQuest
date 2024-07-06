@@ -1,6 +1,8 @@
 import csv
 import json
 import traceback
+import dicttoxml
+from xml.dom.minidom import parseString
 from pymongo import MongoClient
 from bson import json_util
 from flask import *
@@ -27,6 +29,7 @@ def get_user_query():
             response = cursor_to_dict(results)
 
             #TODO: call encode_to_xml() and pass response here
+            encode_to_xml(response)
 
             return jsonify({
                 "data": response, 
@@ -90,6 +93,16 @@ def create_tmp_csv():
 
 def encode_to_xml(json_data):
     #write here
+    xml_data = dicttoxml.dicttoxml(json_data, custom_root='Books', attr_type=False)
+    dom = parseString(xml_data)
+    pretty_xml = dom.toprettyxml()
+
+    # Output the XML to a file or print it
+    output_file = "output.xml"
+    with open(output_file, "w") as file:
+        file.write(pretty_xml)
+
+    print("Data has been converted from JSON to XML and saved to", output_file)
     return ""
 
 def cursor_to_dict(cursor):
@@ -156,7 +169,7 @@ def insert_records():
         exception_details("insert_records", e)
 
 if __name__ == '__main__':
-    # insert_records(collection)
+    # insert_records()
 
     # Creating an index for Full Text Search
     # collection.create_index([
