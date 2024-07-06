@@ -64,7 +64,6 @@ function displayResults(books) {
         bookCard.appendChild(bookTitle);
         bookCard.appendChild(bookAuthor);
         bookCard.appendChild(bookRating);
-        bookCard.appendChild(bookDescription);
         bookCard.appendChild(detailsButton);
 
         resultsContainer.appendChild(bookCard);
