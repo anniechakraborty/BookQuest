@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Books>
 	<item>
 		<_id>
@@ -37,7 +37,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d243</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.61</average_rating>
 		<book_id>25</book_id>
 		<image_url>https://images.gr-assets.com/books/1474171184m/136251.jpg</image_url>
@@ -48,7 +48,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d242</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.53</average_rating>
 		<book_id>24</book_id>
 		<image_url>https://images.gr-assets.com/books/1361482611m/6.jpg</image_url>
@@ -59,7 +59,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d241</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.37</average_rating>
 		<book_id>23</book_id>
 		<image_url>https://images.gr-assets.com/books/1474169725m/15881.jpg</image_url>
@@ -70,7 +70,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d23f</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.46</average_rating>
 		<book_id>21</book_id>
 		<image_url>https://images.gr-assets.com/books/1387141547m/2.jpg</image_url>
@@ -81,7 +81,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d23c</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré, Rufus Beck</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©, Rufus Beck</authors>
 		<average_rating>4.53</average_rating>
 		<book_id>18</book_id>
 		<image_url>https://images.gr-assets.com/books/1499277281m/5.jpg</image_url>
@@ -92,7 +92,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d22c</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.44</average_rating>
 		<book_id>2</book_id>
 		<image_url>https://images.gr-assets.com/books/1474154022m/3.jpg</image_url>
@@ -147,7 +147,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d245</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.54</average_rating>
 		<book_id>27</book_id>
 		<image_url>https://images.gr-assets.com/books/1361039191m/1.jpg</image_url>
@@ -279,7 +279,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267da5f</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.66</average_rating>
 		<book_id>2101</book_id>
 		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
@@ -334,7 +334,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267def5</key>
 		</_id>
-		<authors>J.K. Rowling, Mary GrandPré</authors>
+		<authors>J.K. Rowling, Mary GrandPrÃ©</authors>
 		<average_rating>4.77</average_rating>
 		<book_id>3275</book_id>
 		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
@@ -939,7 +939,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267e6d3</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>4.22</average_rating>
 		<book_id>5289</book_id>
 		<image_url>https://images.gr-assets.com/books/1373049226m/18142329.jpg</image_url>
@@ -950,7 +950,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267e6a2</key>
 		</_id>
-		<authors>Jo Nesbø</authors>
+		<authors>Jo NesbÃ¸</authors>
 		<average_rating>4.07</average_rating>
 		<book_id>5240</book_id>
 		<image_url>https://images.gr-assets.com/books/1418343566m/2033352.jpg</image_url>
@@ -961,7 +961,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267e5dd</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>3.71</average_rating>
 		<book_id>5043</book_id>
 		<image_url>https://images.gr-assets.com/books/1418343189m/18373214.jpg</image_url>
@@ -983,7 +983,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267e2c1</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>4.11</average_rating>
 		<book_id>4247</book_id>
 		<image_url>https://images.gr-assets.com/books/1333577303m/13256064.jpg</image_url>
@@ -1016,7 +1016,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267e069</key>
 		</_id>
-		<authors>Jo Nesbø</authors>
+		<authors>Jo NesbÃ¸</authors>
 		<average_rating>4.08</average_rating>
 		<book_id>3647</book_id>
 		<image_url>https://images.gr-assets.com/books/1408635770m/6891433.jpg</image_url>
@@ -1027,7 +1027,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267df5e</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>3.98</average_rating>
 		<book_id>3380</book_id>
 		<image_url>https://images.gr-assets.com/books/1327312660m/3522419.jpg</image_url>
@@ -1038,7 +1038,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267dba9</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>3.56</average_rating>
 		<book_id>2431</book_id>
 		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
@@ -1060,7 +1060,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d984</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>4.04</average_rating>
 		<book_id>1882</book_id>
 		<image_url>https://images.gr-assets.com/books/1355881478m/9572203.jpg</image_url>
@@ -1071,7 +1071,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267d8fa</key>
 		</_id>
-		<authors>Jo Nesbø, Don Bartlett</authors>
+		<authors>Jo NesbÃ¸, Don Bartlett</authors>
 		<average_rating>3.94</average_rating>
 		<book_id>1744</book_id>
 		<image_url>https://images.gr-assets.com/books/1320540474m/465226.jpg</image_url>
@@ -1115,7 +1115,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267dc54</key>
 		</_id>
-		<authors>Jo Nesbø</authors>
+		<authors>Jo NesbÃ¸</authors>
 		<average_rating>4.03</average_rating>
 		<book_id>2602</book_id>
 		<image_url>https://images.gr-assets.com/books/1328611163m/498389.jpg</image_url>
@@ -1148,12 +1148,12 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267dd49</key>
 		</_id>
-		<authors>Joël Dicker</authors>
+		<authors>JoÃ«l Dicker</authors>
 		<average_rating>3.94</average_rating>
 		<book_id>2847</book_id>
 		<image_url>https://images.gr-assets.com/books/1347987605m/16033842.jpg</image_url>
 		<publication_year>2011</publication_year>
-		<title>La Vérité sur l'affaire Harry Quebert</title>
+		<title>La VÃ©ritÃ© sur l'affaire Harry Quebert</title>
 	</item>
 	<item>
 		<_id>
@@ -1324,7 +1324,7 @@
 		<_id>
 			<key name="$oid">66894b18b9511a1cf267ea64</key>
 		</_id>
-		<authors>Christopher Hitchens, Titus Lucretius Carus, Omar Khayyám, Thomas Hobbes, Baruch Spinoza, David Hume, James Boswell, Percy Bysshe Shelley, George Eliot, Charles Darwin, Leslie Stephen, Anatole France, Mark Twain, Joseph Conrad, Thomas Hardy, Emma Goldman, H.P. Lovecraft, Carl Van Doren, H.L. Mencken, Sigmund Freud, Albert Einstein, George Orwell, John Betjeman, Chapman Cohen, Bertrand Russell, Philip Larkin, Martin Gardner, Carl Sagan, John Updike, John Leslie Mackie, Michael Shermer, A.J. Ayer, Daniel C. Dennett, Charles Templeton, Richard Dawkins, Victor J. Stenger, Elizabeth S.  Anderson, Penn Jillette, Ian McEwan, Steven Weinberg, Salman Rushdie, Ibn Warraq, Sam Harris, A.C. Grayling, Ayaan Hirsi Ali, John Stuart Mill, Karl Marx</authors>
+		<authors>Christopher Hitchens, Titus Lucretius Carus, Omar KhayyÃ¡m, Thomas Hobbes, Baruch Spinoza, David Hume, James Boswell, Percy Bysshe Shelley, George Eliot, Charles Darwin, Leslie Stephen, Anatole France, Mark Twain, Joseph Conrad, Thomas Hardy, Emma Goldman, H.P. Lovecraft, Carl Van Doren, H.L. Mencken, Sigmund Freud, Albert Einstein, George Orwell, John Betjeman, Chapman Cohen, Bertrand Russell, Philip Larkin, Martin Gardner, Carl Sagan, John Updike, John Leslie Mackie, Michael Shermer, A.J. Ayer, Daniel C. Dennett, Charles Templeton, Richard Dawkins, Victor J. Stenger, Elizabeth S.  Anderson, Penn Jillette, Ian McEwan, Steven Weinberg, Salman Rushdie, Ibn Warraq, Sam Harris, A.C. Grayling, Ayaan Hirsi Ali, John Stuart Mill, Karl Marx</authors>
 		<average_rating>4.02</average_rating>
 		<book_id>6202</book_id>
 		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>

@@ -7,6 +7,7 @@ from pymongo import MongoClient
 from bson import json_util
 from flask import *
 from flask_cors import CORS
+import lxml.etree as ET
 
 app = Flask(__name__)
 CORS(app)
@@ -95,15 +96,38 @@ def encode_to_xml(json_data):
     #write here
     xml_data = dicttoxml.dicttoxml(json_data, custom_root='Books', attr_type=False)
     dom = parseString(xml_data)
-    pretty_xml = dom.toprettyxml()
+    pretty_xml = dom.toprettyxml(encoding='utf-8')
 
     # Output the XML to a file or print it
     output_file = "output.xml"
-    with open(output_file, "w") as file:
+    with open(output_file, "wb") as file:  # Open file in binary mode for writing XML with encoding
         file.write(pretty_xml)
 
     print("Data has been converted from JSON to XML and saved to", output_file)
+    xslt_transform()
     return ""
+
+def xslt_transform():  
+
+    # Paths to the XML and XSLT files
+    xml_file = 'output.xml'
+    xslt_file = 'transform.xslt'
+    output_file = 'transformed_output.html'
+
+    # Parse the XML and XSLT files
+    xml_doc = ET.parse(xml_file)
+    xslt_doc = ET.parse(xslt_file)
+
+    # Apply the transformation
+    transform = ET.XSLT(xslt_doc)
+    result = transform(xml_doc)
+
+    # Save the result to a file
+    with open(output_file, 'wb') as f:
+        f.write(ET.tostring(result, pretty_print=True))
+
+    print(f"Transformed output saved to {output_file}")
+
 
 def cursor_to_dict(cursor):
         """Converts a cursor to python dictionary
