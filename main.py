@@ -103,7 +103,7 @@ def encode_to_xml(json_data):
 
     print("Data has been converted from JSON to XML and saved to ", output_file)
 
-def xslt_transform():  
+def xslt_transform():
 
     # Paths to the XML and XSLT files
     xml_file = 'output.xml'
@@ -124,6 +124,31 @@ def xslt_transform():
 
     print(f"Transformed output saved to {output_file}")
 
+def validate_xml_with_dtd():
+    xml_file = 'output.xml'
+    dtd_file = 'books.dtd'
+    # Parse the XML file
+    try:
+        with open(xml_file, 'rb') as f:
+            xml_content = f.read()
+        xml_doc = ET.XML(xml_content)
+    except (ET.XMLSyntaxError, FileNotFoundError) as e:
+        exception_details("validate_xml_with_dtd", e)
+        return
+
+    # Parse the DTD file
+    try:
+        dtd = ET.DTD(dtd_file)
+    except FileNotFoundError as e:
+        exception_details("validate_xml_with_dtd", e)
+        return
+
+    # Validate the XML against the DTD
+    if dtd.validate(xml_doc):
+        print("The XML file is valid!")
+    else:
+        print("The XML file is invalid!")
+        print(dtd.error_log.filter_from_errors())
 
 def cursor_to_dict(cursor):
         """Converts a cursor to python dictionary
@@ -211,11 +236,12 @@ if __name__ == '__main__':
     encode_to_xml(response)
 
     # Validate the generated XML file using DTD
-    
+    validate_xml_with_dtd()
 
     # Convert the XML to XSLT and display on web page
+    xslt_transform()
 
     # print("results execution : ", results.explain())
 
-    app.run(debug=True)
+    # app.run(debug=True)
 

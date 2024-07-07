@@ -1,0 +1,11 @@
+<!ELEMENT Books (item*)>
+<!ELEMENT item (_id, book_id, authors, title, publication_year, average_rating, image_url)>
+<!ELEMENT _id (key)>
+<!ELEMENT key (#PCDATA)>
+<!ATTLIST key name CDATA #REQUIRED>
+<!ELEMENT authors (#PCDATA)>
+<!ELEMENT average_rating (#PCDATA)>
+<!ELEMENT book_id (#PCDATA)>
+<!ELEMENT image_url (#PCDATA)>
+<!ELEMENT publication_year (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
