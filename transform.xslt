@@ -25,17 +25,16 @@
                 <h2>Books Information</h2>
                 <table>
                     <tr>
-                        <th>Authors</th>
-                        <th>Average Rating</th>
                         <th>Book ID</th>
                         <th>Image</th>
-                        <th>Publication Year</th>
                         <th>Title</th>
+                        <th>Authors</th>
+                        <th>Average Rating</th>
+                        <th>Publication Year</th>
+                        
                     </tr>
                     <xsl:for-each select="item">
                         <tr>
-                            <td><xsl:value-of select="authors"/></td>
-                            <td><xsl:value-of select="average_rating"/></td>
                             <td><xsl:value-of select="book_id"/></td>
                             <td>
                                 <img>
@@ -47,8 +46,10 @@
                                     </xsl:attribute>
                                 </img>
                             </td>
-                            <td><xsl:value-of select="publication_year"/></td>
                             <td><xsl:value-of select="title"/></td>
+                            <td><xsl:value-of select="authors"/></td>
+                            <td><xsl:value-of select="average_rating"/></td>
+                            <td><xsl:value-of select="publication_year"/></td>
                         </tr>
                     </xsl:for-each>
                 </table>
