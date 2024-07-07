@@ -1,5 +1,5 @@
 <!ELEMENT Books (item*)>
-<!ELEMENT item (_id, book_id, authors, title, publication_year, average_rating, image_url)>
+<!ELEMENT item (_id, book_id, authors, title, publication_year, average_rating, image_url, score)>
 <!ELEMENT _id (key)>
 <!ELEMENT key (#PCDATA)>
 <!ATTLIST key name CDATA #REQUIRED>
@@ -9,3 +9,4 @@
 <!ELEMENT image_url (#PCDATA)>
 <!ELEMENT publication_year (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
+<!ELEMENT score (#PCDATA)>

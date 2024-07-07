@@ -107,8 +107,8 @@ def xslt_transform():
 
     # Paths to the XML and XSLT files
     xml_file = 'output.xml'
-    xslt_file = 'transform.xslt'
-    output_file = 'transformed_output.html'
+    xslt_file = 'newtransform.xslt'
+    output_file = 'newtransformed_output.html'
 
     # Parse the XML and XSLT files
     xml_doc = ET.parse(xml_file)
@@ -229,10 +229,16 @@ if __name__ == '__main__':
     search_query = input("Enter your search term: ")
     
     print("search_query : ", search_query)
-    results = collection.find({"$text": {"$search": search_query}})
-    
+    # results = collection.find({"$text": {"$search": search_query}})
+    results = collection.find(
+        { "$text": { "$search": search_query } },
+        { "score": { "$meta": "textScore" } }
+    ).sort(
+        [("score", { "$meta": "textScore" })]
+    )
     # convert data to dict and call encode to xml () here
     response = cursor_to_dict(results)
+    print("response : ", response)
     encode_to_xml(response)
 
     # Validate the generated XML file using DTD

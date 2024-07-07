@@ -5,7 +5,7 @@
     <xsl:template match="/Books">
         <html>
             <head>
-                <title>Books Information</title>
+                <title>Books Quest</title>
                 <style>
                     table {
                         border-collapse: collapse;
