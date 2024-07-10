@@ -55,9 +55,9 @@
                                         <p>
                                             Published in <xsl:value-of select="publication_year" />
                                         </p>
-                                        <p>
+                                        <!-- <p>
                                             Search Relevance : <xsl:value-of select="score" />
-                                        </p>
+                                        </p> -->
                                     </td>
                                 </tr>
                             </xsl:for-each>

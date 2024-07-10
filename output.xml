@@ -2,50 +2,314 @@
 <Books>
 	<item>
 		<_id>
-			<key name="$oid">6674618bada9ccd1b91e4c40</key>
+			<key name="$oid">6674618bada9ccd1b91e5c66</key>
 		</_id>
-		<book_id>313</book_id>
-		<authors>M.L. Stedman</authors>
-		<title>The Light Between Oceans</title>
+		<book_id>4447</book_id>
+		<authors>Lilian Jackson Braun</authors>
+		<title>The Cat Who Could Read Backwards (Cat Who..., #1)</title>
+		<publication_year>1966</publication_year>
+		<average_rating>3.84</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>1.0499999999999998</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e5aef</key>
+		</_id>
+		<book_id>4072</book_id>
+		<authors>James Bowen</authors>
+		<title>A Street Cat Named Bob: How One Man and His Cat Found Hope on the Streets</title>
 		<publication_year>2012</publication_year>
-		<average_rating>4</average_rating>
-		<image_url>https://images.gr-assets.com/books/1336683021m/13158800.jpg</image_url>
+		<average_rating>3.96</average_rating>
+		<image_url>https://images.gr-assets.com/books/1331779332m/12394068.jpg</image_url>
+		<score>0.8999999999999999</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6684</key>
+		</_id>
+		<book_id>7037</book_id>
+		<authors>Edgar Allan Poe</authors>
+		<title>The Black Cat</title>
+		<publication_year>1843</publication_year>
+		<average_rating>4.07</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
 		<score>0.75</score>
 	</item>
 	<item>
 		<_id>
-			<key name="$oid">6674618bada9ccd1b91e4c1c</key>
+			<key name="$oid">6674618bada9ccd1b91e5508</key>
 		</_id>
-		<book_id>277</book_id>
-		<authors>Neil Gaiman</authors>
-		<title>The Ocean at the End of the Lane</title>
-		<publication_year>2013</publication_year>
-		<average_rating>3.99</average_rating>
-		<image_url>https://images.gr-assets.com/books/1497098563m/15783514.jpg</image_url>
+		<book_id>2561</book_id>
+		<authors>Margaret Atwood</authors>
+		<title>Cat's Eye</title>
+		<publication_year>1988</publication_year>
+		<average_rating>3.92</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6dee</key>
+		</_id>
+		<book_id>8935</book_id>
+		<authors>Cat Patrick</authors>
+		<title>Forgotten</title>
+		<publication_year>2011</publication_year>
+		<average_rating>3.79</average_rating>
+		<image_url>https://images.gr-assets.com/books/1327916264m/9415951.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e4c30</key>
+		</_id>
+		<book_id>297</book_id>
+		<authors>Kurt Vonnegut Jr.</authors>
+		<title>Cat's Cradle</title>
+		<publication_year>1963</publication_year>
+		<average_rating>4.18</average_rating>
+		<image_url>https://images.gr-assets.com/books/1327867150m/135479.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e5f4e</key>
+		</_id>
+		<book_id>5191</book_id>
+		<authors>Michael Ondaatje</authors>
+		<title>The Cat's Table</title>
+		<publication_year>2011</publication_year>
+		<average_rating>3.59</average_rating>
+		<image_url>https://images.gr-assets.com/books/1327934764m/11076177.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e4c02</key>
+		</_id>
+		<book_id>251</book_id>
+		<authors>Dr. Seuss</authors>
+		<title>The Cat in the Hat</title>
+		<publication_year>1957</publication_year>
+		<average_rating>4.15</average_rating>
+		<image_url>https://images.gr-assets.com/books/1468890477m/233093.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e692c</key>
+		</_id>
+		<book_id>7717</book_id>
+		<authors>Wanda Gág</authors>
+		<title>Millions of Cats</title>
+		<publication_year>1928</publication_year>
+		<average_rating>4.08</average_rating>
+		<image_url>https://images.gr-assets.com/books/1318725166m/621739.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6ce4</key>
+		</_id>
+		<book_id>8669</book_id>
+		<authors>Laura Joffe Numeroff, Felicia Bond</authors>
+		<title>If You Give a Cat a Cupcake</title>
+		<publication_year>2008</publication_year>
+		<average_rating>4.2</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
 		<score>0.6666666666666666</score>
 	</item>
 	<item>
 		<_id>
-			<key name="$oid">6674618bada9ccd1b91e4e56</key>
+			<key name="$oid">6674618bada9ccd1b91e63c5</key>
 		</_id>
-		<book_id>847</book_id>
-		<authors>Jacquelyn Mitchard</authors>
-		<title>The Deep End of the Ocean (Cappadora Family, #1)</title>
-		<publication_year>1996</publication_year>
-		<average_rating>3.84</average_rating>
+		<book_id>6334</book_id>
+		<authors>Dr. Seuss</authors>
+		<title>The Cat in the Hat Comes Back</title>
+		<publication_year>1958</publication_year>
+		<average_rating>3.83</average_rating>
+		<image_url>https://images.gr-assets.com/books/1332799738m/667234.jpg</image_url>
+		<score>0.625</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e5ca6</key>
+		</_id>
+		<book_id>4511</book_id>
+		<authors>Matthew Inman, The Oatmeal</authors>
+		<title>How to Tell If Your Cat Is Plotting to Kill You</title>
+		<publication_year>2012</publication_year>
+		<average_rating>3.95</average_rating>
+		<image_url>https://images.gr-assets.com/books/1461518764m/15799936.jpg</image_url>
+		<score>0.625</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e64e5</key>
+		</_id>
+		<book_id>6622</book_id>
+		<authors>Kentaro Yabuki</authors>
+		<title>Black Cat, Volume 01</title>
+		<publication_year>2001</publication_year>
+		<average_rating>4.08</average_rating>
+		<image_url>https://images.gr-assets.com/books/1399825755m/780845.jpg</image_url>
+		<score>0.625</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e5453</key>
+		</_id>
+		<book_id>2380</book_id>
+		<authors>Tennessee Williams</authors>
+		<title>Cat on a Hot Tin Roof</title>
+		<publication_year>1955</publication_year>
+		<average_rating>4.07</average_rating>
+		<image_url>https://images.gr-assets.com/books/1389369390m/72159.jpg</image_url>
+		<score>0.625</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e5fe8</key>
+		</_id>
+		<book_id>5345</book_id>
+		<authors>Holly Black</authors>
+		<title>White Cat (Curse Workers, #1)</title>
+		<publication_year>2010</publication_year>
+		<average_rating>3.81</average_rating>
+		<image_url>https://images.gr-assets.com/books/1358274572m/6087756.jpg</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e5387</key>
+		</_id>
+		<book_id>2176</book_id>
+		<authors>Dr. Seuss, Various</authors>
+		<title>The Cat in the Hat and Other Dr. Seuss Favorites</title>
+		<publication_year>2003</publication_year>
+		<average_rating>4.41</average_rating>
 		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e66c9</key>
+		</_id>
+		<book_id>7106</book_id>
+		<authors>T.S. Eliot, Edward Gorey</authors>
+		<title>Old Possum's Book of Practical Cats</title>
+		<publication_year>1939</publication_year>
+		<average_rating>4.09</average_rating>
+		<image_url>https://images.gr-assets.com/books/1327882662m/402128.jpg</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e7089</key>
+		</_id>
+		<book_id>9602</book_id>
+		<authors>Nevada Barr</authors>
+		<title>Track of the Cat (Anna Pigeon, #1)</title>
+		<publication_year>1993</publication_year>
+		<average_rating>3.86</average_rating>
+		<image_url>https://images.gr-assets.com/books/1326365792m/76706.jpg</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e616a</key>
+		</_id>
+		<book_id>5731</book_id>
+		<authors>Eric Litwin, James Dean</authors>
+		<title>Pete the Cat: I Love My White Shoes</title>
+		<publication_year>2010</publication_year>
+		<average_rating>4.41</average_rating>
+		<image_url>https://images.gr-assets.com/books/1319030278m/6871646.jpg</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e53ad</key>
+		</_id>
+		<book_id>2214</book_id>
+		<authors>James Patterson, Keith David, Anthony Heald</authors>
+		<title>Cat and Mouse (Alex Cross, #4)</title>
+		<publication_year>1997</publication_year>
+		<average_rating>3.96</average_rating>
+		<image_url>https://images.gr-assets.com/books/1375828879m/21436.jpg</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e63b5</key>
+		</_id>
+		<book_id>6318</book_id>
+		<authors>Robert A. Heinlein</authors>
+		<title>The Cat Who Walks Through Walls (The World As Myth)</title>
+		<publication_year>1985</publication_year>
+		<average_rating>3.7</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e672f</key>
+		</_id>
+		<book_id>7208</book_id>
+		<authors>Agatha Christie</authors>
+		<title>Cat Among the Pigeons (Hercule Poirot, #32)</title>
+		<publication_year>1959</publication_year>
+		<average_rating>3.82</average_rating>
+		<image_url>https://images.gr-assets.com/books/1275665326m/16342.jpg</image_url>
 		<score>0.5833333333333334</score>
 	</item>
 	<item>
 		<_id>
-			<key name="$oid">6674618bada9ccd1b91e5585</key>
+			<key name="$oid">6674618bada9ccd1b91e66ed</key>
 		</_id>
-		<book_id>2686</book_id>
-		<authors>W. Chan Kim, Renée Mauborgne</authors>
-		<title>Blue Ocean Strategy: How To Create Uncontested Market Space And Make The Competition Irrelevant</title>
-		<publication_year>2004</publication_year>
-		<average_rating>3.86</average_rating>
-		<image_url>https://images.gr-assets.com/books/1416445924m/4898.jpg</image_url>
-		<score>0.55</score>
+		<book_id>7142</book_id>
+		<authors>John Gribbin</authors>
+		<title>In Search of Schrödinger's Cat: Quantum Physics and Reality</title>
+		<publication_year>1984</publication_year>
+		<average_rating>4</average_rating>
+		<image_url>https://images.gr-assets.com/books/1440464162m/513367.jpg</image_url>
+		<score>0.5833333333333334</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e56a6</key>
+		</_id>
+		<book_id>2975</book_id>
+		<authors>Harold Bloom, Terry Southern, David H. Goldsmith, James Lundquist, Lawrence R. Broer, Peter J. Reed, Loree Rackstraw, William S. Doxey, Jerome Klinkowitz, Richard Giannone, John L. Simons, Leonard Mustazza, Zoltan Ab di-Nagy, Peter Freese, Wendy B. Faris</authors>
+		<title>Kurt Vonnegut's Cat's Cradle (Modern Critical Interpretations)</title>
+		<publication_year>2002</publication_year>
+		<average_rating>4.35</average_rating>
+		<image_url>https://images.gr-assets.com/books/1297118346m/4983.jpg</image_url>
+		<score>0.5714285714285714</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e564c</key>
+		</_id>
+		<book_id>2885</book_id>
+		<authors>Vicki Myron, Bret Witter</authors>
+		<title>Dewey: The Small-Town Library Cat Who Touched the World</title>
+		<publication_year>2008</publication_year>
+		<average_rating>3.85</average_rating>
+		<image_url>https://images.gr-assets.com/books/1398144610m/3257136.jpg</image_url>
+		<score>0.5714285714285714</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e675d</key>
+		</_id>
+		<book_id>7254</book_id>
+		<authors>Bill Watterson</authors>
+		<title>Homicidal Psycho Jungle Cat: A Calvin and Hobbes Collection</title>
+		<publication_year>1994</publication_year>
+		<average_rating>4.71</average_rating>
+		<image_url>https://images.gr-assets.com/books/1448818381m/24816.jpg</image_url>
+		<score>0.5714285714285714</score>
 	</item>
 </Books>

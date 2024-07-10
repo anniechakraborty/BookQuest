@@ -2,6 +2,7 @@ import csv
 import json
 import traceback
 import dicttoxml
+import webbrowser
 from xml.dom.minidom import parseString
 from pymongo import MongoClient
 from bson import json_util
@@ -123,6 +124,8 @@ def xslt_transform():
         f.write(ET.tostring(result, pretty_print=True))
 
     print(f"Transformed output saved to {output_file}")
+    # Opening the output file in browser
+    webbrowser.open(output_file)
 
 def validate_xml_with_dtd():
     xml_file = 'output.xml'
