@@ -63,9 +63,18 @@ def read_csv_to_dict(file_path, key_column_index=0):
             reader = csv.reader(csvfile)
             headers = next(reader)  # Read the header row
             for row in reader:
+                # Skipping row if book_id, title or authors is missing
+                # In case of null values in publication_year and average_ratings, use default value of 2000 and 3 respectively.
+                if(row[0] == '' or row[0] == None or row[1] == '' or row[1] == None or row[2] == '' or row[2] == None):
+                    continue
+                elif(row[3] == '' or row[3] == None):
+                    row[3] = str(2000)
+                elif(row[4] == '' or row[4] == None):
+                    row[4] = str(3)
+                elif(row[5] == None):
+                    row[5] = ''
                 key = row[key_column_index]
                 data_dict[key] = {headers[i]: row[i] for i in range(len(headers))}
-        
         return data_dict
     except Exception as e:
         exception_details("read_csv_to_dict", e)
@@ -217,31 +226,48 @@ def insert_records():
         exception_details("insert_records", e)
 
 if __name__ == '__main__':
-    # insert_records()
-
-    # Creating an index for Full Text Search
-
-    # collection.create_index([
-    #     ('title', 'text'),
-    #     ('authors', 'text'),
-    #     ('average_rating', 'text'),
-    #     ('publication_year', 'text')
-    # ], name='text_index')
+    num_records = collection.count_documents({})
+    print("Records count : ", num_records)
+    if(num_records == 0):
+        insert_records()
+        # Creating an index for Full Text Search
+        collection.create_index([
+            ('title', 'text'),
+            ('authors', 'text'),
+            ('average_rating', 'text'),
+            ('publication_year', 'text')
+        ], name='text_index')
     
     # Take user input for search here 
     search_query = input("Enter your search term: ")
     
-    print("search_query : ", search_query)
-    # results = collection.find({"$text": {"$search": search_query}})
+    print("Search Query : ", search_query)
     results = collection.find(
         { "$text": { "$search": search_query } },
         { "score": { "$meta": "textScore" } }
     ).sort(
         [("score", { "$meta": "textScore" })]
     )
+
+    print()
+    print("Full Text Search analysis : ", results.explain())
+    # An equivalent regex query to compare execution time and analyse query results
+    regex_query = {
+        "$or": [
+            {"title": {"$regex": search_query, "$options": "i"}},
+            {"authors": {"$regex": search_query, "$options": "i"}},
+            {"rating": {"$regex": search_query, "$options": "i"}},
+            {"year": {"$regex": search_query, "$options": "i"}}
+        ]
+    }
+
+    regex_results = collection.find(regex_query)
+    print("\n\nRegex Search analysis : ", regex_results.explain())
+
     # convert data to dict and call encode to xml () here
     response = cursor_to_dict(results)
-    print("response : ", response)
+    print()
+    # print("response : ", response)
     encode_to_xml(response)
 
     # Validate the generated XML file using DTD
@@ -250,7 +276,7 @@ if __name__ == '__main__':
     # Convert the XML to XSLT and display on web page
     xslt_transform()
 
-    # print("results execution : ", results.explain())
-
     # app.run(debug=True)
+
+    read_csv_to_dict('asset/books.csv')
 
