@@ -35,6 +35,34 @@ If the commands throw an error, then please install Python by following the offi
 | newtransform.xslt | This is the XSLT stylesheet that is used to transform the XML to HTML |
 | newtransformed_output.html | The HTMl file which is generated as the final output to the search query |
 
-### Data Collection
+### Data Model
 
-We  sourced our dataset from Kaggle's GoodBooks-10k dataset which is composed of several CSV files, each containing specific types of information about the books and their interactions on the GoodReads platform. The primary file included in the dataset is books.csv that contains detailed metadata for each of the 10,000 books.
+We  sourced our dataset from Kaggle's GoodBooks-10k dataset which is composed of several CSV files, each containing specific types of information about the books and their interactions on the GoodReads platform. The primary file included in the dataset is books.csv that contains detailed metadata for each of the 10,000 books. We extract the essential attributes to work with and the rest of the fields were discarded. The basic structure of the dictionary is as follows.  <br/>
+“book_id” : {  <br/>
+ &emsp; title: book-name,  <br/>
+ &emsp; author: author-name,  <br/>
+ &emsp; publication_year: year,  <br/>
+ &emsp; average_rating: rating,  <br/>
+ &emsp; image_url: url	 <br/>
+}  <br/>
+
+Every row is read and converted into the above key-value pair after the following checks are implemented.
+- If the book_id, title or authors are missing, then we ignore / skip that row.
+- In the case of null values in publication_year and average_ratings, use default values of 2000 and 3 respectively.
+
+### Sample Queries
+Query 1: Basic search- User enters a simple search term “harry”
+
+Output HTML
+
+
+Query 2: Keywords exclusion - User excludes the term “potter” from the search
+
+Output HTML
+
+
+Query 3: Phrase search - User searches with phrase “true story”
+
+
+Output HTML
+
