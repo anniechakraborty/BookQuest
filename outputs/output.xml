@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Books>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e4e9e</key>
+		</_id>
+		<book_id>919</book_id>
+		<authors>Annie Proulx</authors>
+		<title>The Shipping News</title>
+		<publication_year>1993</publication_year>
+		<average_rating>3.83</average_rating>
+		<image_url>https://images.gr-assets.com/books/1469036074m/7354.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e64cf</key>
+		</_id>
+		<book_id>6600</book_id>
+		<authors>Annie Dillard</authors>
+		<title>Pilgrim at Tinker Creek</title>
+		<publication_year>1974</publication_year>
+		<average_rating>4.1</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e585e</key>
+		</_id>
+		<book_id>3415</book_id>
+		<authors>Nancy Garden</authors>
+		<title>Annie on My Mind</title>
+		<publication_year>1982</publication_year>
+		<average_rating>3.97</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6cee</key>
+		</_id>
+		<book_id>8679</book_id>
+		<authors>Annie Barrows</authors>
+		<title>The Truth According to Us</title>
+		<publication_year>2015</publication_year>
+		<average_rating>3.75</average_rating>
+		<image_url>https://images.gr-assets.com/books/1465284604m/22551743.jpg</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e62b9</key>
+		</_id>
+		<book_id>6066</book_id>
+		<authors>Annie Proulx</authors>
+		<title>Brokeback Mountain</title>
+		<publication_year>1997</publication_year>
+		<average_rating>3.93</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6a29</key>
+		</_id>
+		<book_id>7970</book_id>
+		<authors>Annie Proulx</authors>
+		<title>Close Range</title>
+		<publication_year>1999</publication_year>
+		<average_rating>3.99</average_rating>
+		<image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+		<score>0.75</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e4bca</key>
+		</_id>
+		<book_id>195</book_id>
+		<authors>Mary Ann Shaffer, Annie Barrows</authors>
+		<title>The Guernsey Literary and Potato Peel Pie Society</title>
+		<publication_year>2008</publication_year>
+		<average_rating>4.12</average_rating>
+		<image_url>https://images.gr-assets.com/books/1351979318m/2728527.jpg</image_url>
+		<score>0.6</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6c38</key>
+		</_id>
+		<book_id>8497</book_id>
+		<authors>Apostolos Doxiadis, Christos H. Papadimitriou, Alecos Papadatos, Annie Di Donna</authors>
+		<title>Logicomix: An epic search for truth</title>
+		<publication_year>2009</publication_year>
+		<average_rating>4.01</average_rating>
+		<image_url>https://images.gr-assets.com/books/1312031956m/6493321.jpg</image_url>
+		<score>0.55</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6725</key>
+		</_id>
+		<book_id>7198</book_id>
+		<authors>Jean-Paul Sartre, Arlette Elkaïm-Sartre, Annie Cohen-Solal, Carol Macomber</authors>
+		<title>Existentialism Is a Humanism</title>
+		<publication_year>1946</publication_year>
+		<average_rating>3.96</average_rating>
+		<image_url>https://images.gr-assets.com/books/1328870158m/51985.jpg</image_url>
+		<score>0.5454545454545454</score>
+	</item>
+	<item>
+		<_id>
+			<key name="$oid">6674618bada9ccd1b91e6ff9</key>
+		</_id>
+		<book_id>9458</book_id>
+		<authors>Matt Fraction, David Aja, Francesco Francavilla, Steve Lieber, Jesse Hamm, Annie Wu, Matt Hollingsworth, Chris Eliopoulos</authors>
+		<title>Hawkeye, Volume 2: Little Hits</title>
+		<publication_year>2013</publication_year>
+		<average_rating>4.27</average_rating>
+		<image_url>https://images.gr-assets.com/books/1384620904m/17277800.jpg</image_url>
+		<score>0.53125</score>
+	</item>
+</Books>

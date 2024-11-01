@@ -3,15 +3,17 @@ import json
 import traceback
 import dicttoxml
 import webbrowser
+import time
+import os
 from xml.dom.minidom import parseString
 from pymongo import MongoClient
 from bson import json_util
-from flask import *
-from flask_cors import CORS
+# from flask import *
+# from flask_cors import CORS
 import lxml.etree as ET
 
-app = Flask(__name__)
-CORS(app)
+# app = Flask(__name__)
+# CORS(app)
 
 uri = "mongodb://localhost:27017"
 client = MongoClient(uri)
@@ -21,32 +23,32 @@ collection = db['Books']
 # search_query = ""
 
 # API Calls and connections
-@app.route('/search', methods=['GET'])
-def get_user_query():
-    try:
-        search_query = request.args.get('query')
+# @app.route('/search', methods=['GET'])
+# def get_user_query():
+    # try:
+    #     search_query = request.args.get('query')
 
-        if search_query:
-            results = collection.find({"$text": {"$search": search_query}})
-            response = cursor_to_dict(results)
+    #     if search_query:
+    #         results = collection.find({"$text": {"$search": search_query}})
+    #         response = cursor_to_dict(results)
 
-            encode_to_xml(response)
+    #         encode_to_xml(response)
 
-            return jsonify({
-                "data": response, 
-                "message": "QUERY RESPONSE RECEIVED SUCCESSFULLY!", 
-                "success": True
-            }), 200
-        else:
-            return jsonify(
-                    {
-                        "data": [],
-                        "message": "MISSING SEARCH PARAMS!",
-                        "success": False,
-                    }
-                ), 400
-    except Exception as e:
-        exception_details("get_user_query", e)
+    #         return jsonify({
+    #             "data": response, 
+    #             "message": "QUERY RESPONSE RECEIVED SUCCESSFULLY!", 
+    #             "success": True
+    #         }), 200
+    #     else:
+    #         return jsonify(
+    #                 {
+    #                     "data": [],
+    #                     "message": "MISSING SEARCH PARAMS!",
+    #                     "success": False,
+    #                 }
+    #             ), 400
+    # except Exception as e:
+    #     exception_details("get_user_query", e)
 
 # Utility functions
 def read_csv_to_dict(file_path, key_column_index=0):
@@ -101,13 +103,13 @@ def create_tmp_csv():
 
     print(f"CSV file '{filename}' created successfully.")
 
-def encode_to_xml(json_data):
-    xml_data = dicttoxml.dicttoxml(json_data, custom_root='Books', attr_type=False)
+def encode_to_xml(data):
+    xml_data = dicttoxml.dicttoxml(data, custom_root='Books', attr_type=False)
     dom = parseString(xml_data)
     pretty_xml = dom.toprettyxml(encoding='utf-8')
 
     # Output the XML to a file or print it
-    output_file = "output.xml"
+    output_file = "outputs/output.xml"
     with open(output_file, "wb") as file:  # Open file in binary mode for writing XML with encoding
         file.write(pretty_xml)
 
@@ -116,9 +118,9 @@ def encode_to_xml(json_data):
 def xslt_transform():
 
     # Paths to the XML and XSLT files
-    xml_file = 'output.xml'
-    xslt_file = 'newtransform.xslt'
-    output_file = 'newtransformed_output.html'
+    xml_file = 'outputs/output.xml'
+    xslt_file = 'transform.xslt'
+    output_file = 'outputs/transformed_output.html'
 
     # Parse the XML and XSLT files
     xml_doc = ET.parse(xml_file)
@@ -134,10 +136,11 @@ def xslt_transform():
 
     print(f"Transformed output saved to {output_file}")
     # Opening the output file in browser
-    webbrowser.open(output_file)
+    abs_path = os.path.abspath(output_file)
+    webbrowser.open('file://' + abs_path)
 
 def validate_xml_with_dtd():
-    xml_file = 'output.xml'
+    xml_file = 'outputs/output.xml'
     dtd_file = 'books.dtd'
     # Parse the XML file
     try:
@@ -163,7 +166,11 @@ def validate_xml_with_dtd():
         print(dtd.error_log.filter_from_errors())
 
 def cursor_to_dict(cursor):
-        """Converts a cursor to python dictionary
+        """
+        Purpose:
+            Converts a cursor to python dictionary. When we execute a  query, MongoDB doesn't immediately return the data.
+            Instead it returns a cursor which is a pointer to the result set of the query,
+            and can be used to iterate over the results one by one or in batches.
         Args:
             cursor (Cursor): Cursor Object
         Returns:
@@ -187,8 +194,9 @@ def cursor_to_dict(cursor):
 
 def exception_details(function_name, exception):
         """
-        The function "exception_details" prints the details of an exception, including the function
-        name, exception details, and traceback information.
+        Purpose:
+            The function "exception_details" prints the details of an exception, including the function
+            name, exception details, and traceback information.
         
         Args:
           function_name: The name of the function where the exception occurred.
@@ -227,7 +235,7 @@ def insert_records():
 
 if __name__ == '__main__':
     num_records = collection.count_documents({})
-    print("Records count : ", num_records)
+    # print("Records count : ", num_records)
     if(num_records == 0):
         insert_records()
         # Creating an index for Full Text Search
@@ -241,7 +249,8 @@ if __name__ == '__main__':
     # Take user input for search here 
     search_query = input("Enter your search term: ")
     
-    print("Search Query : ", search_query)
+    # print("Search Query : ", search_query)
+    start_time = time.time()
     results = collection.find(
         { "$text": { "$search": search_query } },
         { "score": { "$meta": "textScore" } }
@@ -249,6 +258,8 @@ if __name__ == '__main__':
         [("score", { "$meta": "textScore" })]
     )
 
+    end_time = time.time()
+    print("Execution time: " + str(end_time - start_time))
     print()
     print("Full Text Search analysis : ", results.explain())
     # An equivalent regex query to compare execution time and analyse query results
@@ -261,7 +272,10 @@ if __name__ == '__main__':
         ]
     }
 
+    start_time = time.time()
     regex_results = collection.find(regex_query)
+    end_time = time.time()
+    print("Execution time: " + str(end_time - start_time))
     print("\n\nRegex Search analysis : ", regex_results.explain())
 
     # convert data to dict and call encode to xml () here
