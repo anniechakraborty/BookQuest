@@ -51,18 +51,21 @@ Every row is read and converted into the above key-value pair after the followin
 - In the case of null values in publication_year and average_ratings, use default values of 2000 and 3 respectively.
 
 ### Sample Queries
-Query 1: Basic search- User enters a simple search term “harry”
 
-Output HTML
+Query 1: Basic search- User enters a simple search term “harry”  <br/> 
+![](queries/query1.png)  <br/> <br/>
 
+Output HTML  <br/>
+![](queries/query1_output.png)  <br/> <br/>
 
-Query 2: Keywords exclusion - User excludes the term “potter” from the search
+Query 2: Keywords exclusion - User excludes the term “potter” from the search  <br/>
+![](queries/query2.png)  <br/> <br/>
 
-Output HTML
+Output HTML  <br/>
+![](queries/query2_output.png)  <br/> <br/>
 
+Query 3: Phrase search - User searches with phrase “true story”  <br/>
+![](queries/query3.png)  <br/> <br/>
 
-Query 3: Phrase search - User searches with phrase “true story”
-
-
-Output HTML
-
+Output HTML  <br/>
+![](queries/query3_output.png)  <br/> <br/>
