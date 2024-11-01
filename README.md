@@ -24,6 +24,7 @@ If the commands throw an error, then please install Python by following the offi
 - Initially, create a database in Mongo by launching the MongoDB Compass and connecting to the server. In our case we connect to the local server (local host) using the `mongodb://localhost:27017` connection string URI.
 - Create a new database called BookFinder with a collection called Books.
 - Clone / download this project and open it in the Command Prompt / Terminal of your device and run the command `py .\main.py`
+- To run the PostgreSQL implmentation, run `py .\postgreSQL_implmentation.py`
 
 ### Project File Structure
 
