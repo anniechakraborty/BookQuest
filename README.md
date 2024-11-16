@@ -70,3 +70,7 @@ Query 3: Phrase search - User searches with phrase “true story”  <br/>
 
 Output HTML  <br/>
 ![](queries/query3_output.png)  <br/> <br/>
+
+## Alternative implementations
+Here I have prepared a report where I discuss the potential of using PostegreSQL (an SQL database) over MongoDB (a NoSQL database). I discuss the properties, advantages and disadvantages of each and the steps of implementation. The python implementation is provided in the postgreSQL_implmentation.py file and can be executed by running `py postgreSQL_implmentation.py` <br/>
+[Link to the report can be found here](https://medium.com/@annie.chakraborty/book-quest-contrasting-two-different-database-implementations-in-a-book-query-project-4605d5208784)
